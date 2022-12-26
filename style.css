@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+#mainpage {
+    margin: 8% 8%;
+}
+.leftbar {
+    position: fixed;
+    top: 5%;
+    width: 50%;
+    left: 5%;
+    height: 10%;
+}
+#rightbar {
+    position: fixed;
+    top: 5%;
+    text-align: right;
+    right: 5%;
+}
+.centre {
+    text-align: center;
+}
