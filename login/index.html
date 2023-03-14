@@ -8,11 +8,17 @@
 </head>
 <body>
       <script src="https://accounts.google.com/gsi/client" async defer></script>
+      <script>
+          function userInfo(callback) {
+               console.log(callback)
+               location.href = "/healthboard/login/nothing_here.html"
+          }
+     </script>
       <div id="g_id_onload"
       data-client_id="489061591088-hoshbbr84fmk981tl68ld8el5435elod.apps.googleusercontent.com"
       data-context="signup"
       data-ux_mode="popup"
-      data-login_uri="https://kaiete.uk/healthboard/done.html"
+      data-callback="userInfo"
       data-auto_prompt="false">
  </div>
  
