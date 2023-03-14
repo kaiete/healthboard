@@ -7,6 +7,33 @@
     <title>Sign in to Healthboard</title>
 </head>
 <body>
+     <div class="thingamybob">
+          <h1>
+          Let's get you signed in
+          </h1>
+          <div class="g_id_signin"
+          data-type="standard"
+          data-shape="pill"
+          data-theme="filled_black"
+          data-text="signin_with"
+          data-size="large"
+          data-logo_alignment="left">
+          </div>
+     </div>
+     <style>
+          @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@500&display=swap');
+          .thingamybob {
+               font-size: 3em;
+               height: 100%;
+               text-align:center;
+               font-family: 'Climate Crisis', sans-serif;
+               color: azure;
+          }
+          body {
+               height: 100%;
+               background-color: rgb(46, 46, 46);
+          }
+     </style>
       <script src="https://accounts.google.com/gsi/client" async defer></script>
       <script>
           function userInfo(callback) {
@@ -22,13 +49,6 @@
       data-auto_prompt="false">
  </div>
  
- <div class="g_id_signin"
-      data-type="standard"
-      data-shape="pill"
-      data-theme="filled_black"
-      data-text="signin_with"
-      data-size="large"
-      data-logo_alignment="left">
- </div>
+
 </body>
 </html>
